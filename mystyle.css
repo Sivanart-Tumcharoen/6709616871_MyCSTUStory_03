@@ -1,0 +1,66 @@
+header {
+    background: #c0c4cc;
+    
+    /* สีพื้นหลังที่สดใส */
+    color: #000000;
+    text-align: center;
+    padding: 2em 0;
+    ;
+    
+}
+
+body {
+    background-color: #dbdada;
+    color: #000;
+    font-style: oblique;
+    font-size: larger;
+}
+
+nav {
+    padding: 15px;
+    text-align: center;
+    
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #000000;
+}
+
+tr th li a:hover{
+    color: ;
+}
+
+tr th li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+tr th li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 97%);
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+tr th li a:hover {
+    color: #000000;
+}
