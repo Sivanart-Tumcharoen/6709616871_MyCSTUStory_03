@@ -1,7 +1,26 @@
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-left: auto;
+        size: auto ;
+    } 
+    tr th li {
+        flex-direction:column ;
+    }
+}
+@media (max-width: 480px) {
+    .box {
+        min-width: 100%;
+        margin-left: auto;
+        size: auto ;
+    }
+    tr th li {
+        flex-direction: column;
+    }
+}
 header {
     background: #c0c4cc;
-    
-    /* สีพื้นหลังที่สดใส */
+    background-size: auto;
     color: #000000;
     text-align: center;
     padding: 2em 0;
@@ -15,6 +34,7 @@ body {
     font-style: oblique;
     font-size: larger;
 }
+
 
 nav {
     padding: 15px;
@@ -51,7 +71,7 @@ tr th li a:hover{
 
 tr th li {
     display: inline-block;
-    margin: 0 15px;
+    margin: auto;
 }
 
 tr th li a {
